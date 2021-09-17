@@ -1,0 +1,68 @@
+= Document title
+Ahmad Ma'ruf <ahmadmaruf2701@gmail.com>
+v1.0 YYYY-MM-DD
+:toc:
+
+// pelican frontmatter
+:date: YYYY-MM-DD
+:modified: YYYY-MM-DD
+:tags: tag1, tag2
+:category: cat1
+:slug: my-super-post
+:authors: Ahmad Ma'ruf
+:summary: Short version for index and feeds
+
+
+== Section 1 (Heading 1)
+normal paragraph blablabalbalbalba
+
+literal paragrah (monospace)
+    just add indentation at least 1 space
+    this is literal paragraph
+    sfssg
+    sgsgsfgdssdf
+    gddsgsfgdsfg
+    
+    
+=== Section 2 (heading 2, up until heading 5) 
+
+[discrete]
+=== I'm an independent heading! not a section
+ 
+*bold*
+_italic_
+`monospace`
+
+links
+https://example.org
+https://example.org[text appear]
+
+
+list
+
+UL
+* list 1
+* list 2
+** list 2a
+** list 2b
+* list 3
+** list 3a
+*** list 3ai
+
+OL
+. list 1
+. list 2
+.. list 2a
+... list 2ai
+. list 1
+. list 2
+
+CHECKLIST
+* [*] checked
+* [x] also checked
+* [ ] not checked
+* normal list
+
+
+syntax reff
+https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
