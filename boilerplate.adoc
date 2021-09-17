@@ -1,7 +1,8 @@
-= Document title
+= Document title Boilerplate and quick refference
 Ahmad Ma'ruf <ahmadmaruf2701@gmail.com>
 v1.0 YYYY-MM-DD
 :toc:
+:toclevels: 3
 
 // pelican frontmatter
 :date: YYYY-MM-DD
@@ -15,8 +16,11 @@ v1.0 YYYY-MM-DD
 
 == Section 1 (Heading 1)
 normal paragraph blablabalbalbalba
+dsafasgsfasgsags
+sfgasgsgsafg
+sgfsgsdgsdf
 
-literal paragrah (monospace)
+    literal paragrah (monospace)
     just add indentation at least 1 space
     this is literal paragraph
     sfssg
@@ -25,22 +29,27 @@ literal paragrah (monospace)
     
     
 === Section 2 (heading 2, up until heading 5) 
-
-[discrete]
-=== I'm an independent heading! not a section
  
-*bold*
+*bold* 
+
 _italic_
+
 `monospace`
 
-links
+==== Section 3
+fsgsfgsdgffgsdfagsgfda
+gsfgsgsfg
+sgsagsag
+
+=== links
 https://example.org
+
 https://example.org[text appear]
 
 
-list
+=== list
 
-UL
+.Unordered List
 * list 1
 * list 2
 ** list 2a
@@ -49,7 +58,7 @@ UL
 ** list 3a
 *** list 3ai
 
-OL
+.Ordered List
 . list 1
 . list 2
 .. list 2a
@@ -57,12 +66,11 @@ OL
 . list 1
 . list 2
 
-CHECKLIST
+=== Checklist
 * [*] checked
 * [x] also checked
 * [ ] not checked
 * normal list
 
 
-syntax reff
-https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
+syntax reff: https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
