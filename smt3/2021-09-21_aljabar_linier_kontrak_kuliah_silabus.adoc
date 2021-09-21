@@ -1,0 +1,50 @@
+= Silabus dan Kontrak Perkuliahan Aljabar Linier
+Ahmad Ma'ruf <ahmadmaruf2701@gmail.com>
+:toc:
+:toclevels: 3
+
+:date: 2021-09-21
+:modified: 2021-09-21
+:tags: pertemuan1, smt3, kontrak-kuliah
+:category: aljabar-linier, smt3
+:slug: silabus-dan-kontrak-kuliah-aljabar-linier
+:authors: Ahmad Ma'ruf
+:summary: Pertemuan 1 Aljabar Linier - Silabus dan kontrak kuliah
+
+== Kontrak Kuliah
+* 14 Pertemuan
+* Tatap Muka 50% 50% (rekomendasi rektorat). Diserahkan ke fakultas. Fastikom  tidak mampu karena keterbatasan ruangan.
+** 3x Tatap Muka (awal, pertengahan, akhir semester)
+* Maksimal izin 2-3x
+* Prosentase nilai
+** Tertinggi UAS > UTS > Kehadiran Gmeet > Tugas
+** Keaktifan Kelas/Gmeet
+* Akan ada mk Induksi Proyek Pemodelan Basis Data
+* Skripsinya nanti juga dibuat menjadi bentuk artikel ilmiah
+* Perkulihan Tatap Muka (disarankan vaksin)
+
+== Silabus
+Mempelajari bentuk-bentuk aljabar Linier (mirip pelajaran SMP, SMA)
+* Variabel = Sesuatu yang belum diketahui nilainya (dilambangkan dengan abjad/simbol)
+
+* Linier = garis Lurus 
+* Matriks
+** Determinan
+** Sifat Matriks
+* Vektor = Satuan yang memiliki besaran dan arah
+
+Jenis-jenis SPL (Sistem Persamaan Linier)
+Penyelesaian SPLDV: Subtitusi & Eliminasi
+
+* Solusi Tunggal (garis bersinggungan)
+* Tidak Memiliki Solusi > Persamaan Tidak konsisten. (Garis sejajar)
+* Memiliki banyak solusi
+
+
+*Ciri-ciri persamaan linier*
+Bentuk umum Persamaan linier = `ax+by = c`
+
+* Bukan persamaan logaritma
+* Bukan persamaan trigonometri
+* Bukan persamaan eksponen
+
