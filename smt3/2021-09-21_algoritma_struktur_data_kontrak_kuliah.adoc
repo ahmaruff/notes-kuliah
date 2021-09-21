@@ -1,0 +1,23 @@
+= Kontrak Perkuliahan Algoritma dan Struktur Data
+Ahmad Ma'ruf <ahmadmaruf2701@gmail.com>
+:toc:
+:toclevels: 3
+
+:date: 2021-09-21
+:modified: 2021-09-21
+:tags: pertemuan1, smt3, kontrak-kuliah
+:category: algoritma-struktur-data, smt3
+:slug: silabus-dan-kontrak-kuliah-algoritma-struktur-data
+:authors: Ahmad Ma'ruf
+:summary: Pertemuan 1 Algoritma Struktur Data - kontrak kuliah
+
+== Nilai
+* Absensi 20%
+* Tugas 30%
+* UTS 20%
+* UAS 30%
+
+== Struktur Data
+Struktur data adalah cara penyimpanan, penyusunan dan pengaturan data di dalam media penyimpanan komputer sehingga data tersebut dapat digunakan secara efisien.
+
+Dalam teknik pemrograman, struktur data berarti *tata letak data* yang berisi kolom-kolom data, baik itu kolom yang tampak oleh pengguna (user) ataupun kolom yang hanya digunakan untuk keperluan pemrograman yang tidak tampak oleh pengguna
