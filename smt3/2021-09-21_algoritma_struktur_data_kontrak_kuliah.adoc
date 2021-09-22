@@ -7,7 +7,7 @@ Ahmad Ma'ruf <ahmadmaruf2701@gmail.com>
 :modified: 2021-09-21
 :tags: pertemuan1, smt3, kontrak-kuliah
 :category: algoritma-struktur-data, smt3
-:slug: silabus-dan-kontrak-kuliah-algoritma-struktur-data
+:slug: kontrak-kuliah-algoritma-struktur-data
 :authors: Ahmad Ma'ruf
 :summary: Pertemuan 1 Algoritma Struktur Data - kontrak kuliah
 
@@ -21,3 +21,19 @@ Ahmad Ma'ruf <ahmadmaruf2701@gmail.com>
 Struktur data adalah cara penyimpanan, penyusunan dan pengaturan data di dalam media penyimpanan komputer sehingga data tersebut dapat digunakan secara efisien.
 
 Dalam teknik pemrograman, struktur data berarti *tata letak data* yang berisi kolom-kolom data, baik itu kolom yang tampak oleh pengguna (user) ataupun kolom yang hanya digunakan untuk keperluan pemrograman yang tidak tampak oleh pengguna
+
+
+// Tambahan dari Bp. Muslim Hidayat
+* Array
+* Struct
+* Searching
+* Sorting
+* Stack
+* Queue
+* Linked List
+
+=== Tipe Data
+Merupakan jenis data yang mampu ditangani oleh suatu bahasa pemrograman pada komputer, tiap-tiap bahasa pemrogaman memiliki tipe data
+
+=== Obyek Data (Data Object)
+Merupakan kumpulan elemenn yang mungkin untuk suatu tipe data tertentu. misal: `integer` mengacu (reference) pada obyek data -32768 s/d 32767, byte 0 s/d 255.
