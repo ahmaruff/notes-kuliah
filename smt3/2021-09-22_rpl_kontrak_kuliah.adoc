@@ -1,0 +1,33 @@
+= Kontrak Perkuliahan Rekayasa Perangkat Lunak
+Ahmad Ma'ruf <ahmadmaruf2701@gmail.com>
+:toc:
+:toclevels: 3
+
+:date: 2021-09-22
+:modified: 2021-09-22
+:tags: pertemuan1, smt3, kontrak-kuliah
+:category: rpl, smt3
+:slug: kontrak-kuliah-rpl
+:authors: Ahmad Ma'ruf
+:summary: Pertemuan 1 Rekayasa Perangkat Lunak - kontrak kuliah
+
+== Nilai
+* UTS 25%
+* UAS 30%
+* Tugas 30%
+* Kehadiran 10%
+* Quiz 5%
+
+Nilai Akhir merupakan Gabungan dari nilai UTS, UAS, Tugas, Quiz, Kehadiran. Keaktifan menjadi nilai tambah
+
+Attitude sebagai pertimbangan
+
+UTS dan UAS menggunakan media online (Sistem akademik, Quizizz, dll)
+
+== Materi/Silabus
+* Pengenalan Rekayasa Perangkat Lunak (Software Engineering)
+* Definisi PErangkat Lunak
+* Evolusi Perangkat Lunak
+* Sifat dan Karekteristik Software
+* Krisis Perangkat Lunak
+* Mitos Perangkat Lunak
