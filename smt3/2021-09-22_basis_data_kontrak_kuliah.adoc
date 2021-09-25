@@ -1,0 +1,41 @@
+= Silabus dan Kontrak Perkuliahan Pemodelan Basis Data
+Ahmad Ma'ruf <ahmadmaruf2701@gmail.com>
+:toc:
+:toclevels: 3
+
+:date: 2021-09-22
+:modified: 2021-09-22
+:tags: pertemuan1, smt3, kontrak-kuliah
+:category: basis-data, smt3
+:slug: kontrak-kuliah-pemodelan-basis-data
+:authors: Ahmad Ma'ruf
+:summary: Pertemuan 1 Pemodelan Basis Data
+
+Basis data dapat dianalogikan seperi lemari pakaian. Didalam lemari terbagi menjadi rak-rak. Masing-masing rak berisi pakaian.
+
+Lemari (Secara keseluruhan) menganalogikan basis data (database). didalam database terdapat tabel-tabel, dianalogikan sebagai rak-rak. tiap tabel tersebut saling berhubungan (memiliki relasi). misal rak baju memiliki relasi dengan rak celana. Masing-masing pakaian di setiap rak disebut sebagai data/record.
+
+== Nilai
+* Presensi 25%
+* Tugas 30 %
+* UTS 20% 
+* UAS 25%
+
+== Materi
+* Konsep Dasar Basis Data
+* Entity Relationship Diagram (ERD)
+* Mapping ERD ke tabel
+* Normalisasi
+* Database Management System
+* Data Definition Language
+* Data Manipulation Language
+* Operator
+* Fungsi agregat, Order by, Group by
+* Join
+* View Trigger
+* Stored Procedure
+
+== Aplikasi yang dibutuhkan
+* MySQL
+* XAMPP
+
