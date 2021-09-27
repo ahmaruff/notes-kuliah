@@ -1,0 +1,135 @@
+= Kontrak Perkuliahan dan Pengenalan Komunikasi Data dan Jaringan Komputer
+Ahmad Ma'ruf <ahmadmaruf2701@gmail.com>
+:toc:
+:toclevels: 3
+
+:date: 2021-09-28
+:modified: 2021-09-28
+:tags: pertemuan1, smt3, kontrak-kuliah
+:category: jarkom, smt3
+:slug: kontrak-kuliah-jaringan-komputer
+:authors: Ahmad Ma'ruf
+:summary: Pertemuan 1 Komunikasi data dan jaringan komputer
+:imagesdir: static/img
+
+
+== Kontrak Kuliah
+* Penugasan. sekitar 4 tugas dalam 1 semester
+* Jenis Penugasan:
+** Tugas Individu/kelompok
+** UTS
+** UAS
+* Media Pembelajaran:
+** Google Meet (Camera ON, Mic OFF)
+** E-Learning
+** Whatsapp Group
+* Penilaian:
+** Originalitas
+** Jumlah Jawaban mirip Maksimal 8 orang
+** Tidak Mengumpulkan Tugas: MAKSIMAL B
+** Tidak Ikut UTS/UAS: MAKSIMAL C
+
+=== Nilai
+* Presensi 25%
+* Tugas 25%
+* UTS 25%
+* UAS 25%
+
+== Pokok Bahasan
+* Pengenalan Komunikasi data dan jaringan komputer
+* Media Transmisi dan perangkat jaringan komputer
+* Topologi Jaringan
+* OSI Layer
+* TCP/IP & IP address
+* Subnetting
+* Routing
+* Desain Jaringan
+ 
+== Pengenalan Komunikasi Data dan Jaringan Komputer
+Komunikasi Data adalah suatu proses interaksi antara dua atau lebih alat melalui suatu media transmisi yang terhubung dalam sebuah jaringan
+
+Transmisi diatas bisa antara komputer dan komputer, komputer dengan terminal, atau komputer dengan peralatan, atau peralatan dengan peralatan
+
+Sistem yang mungkin terjadinya transmisi data sering disebut sebagai Jaringan Komunikasi Data
+
+=== Jenis Komunikasi Data
+* Melalui Infrastruktur Terestrial (Wired/Wireless)
+* Melalui Infrastruktur Satelit (Media komunikasi menggunakan satelit)
+
+=== Manfaat Komunikasi Data
+* Lebih efisien.
+* Dapat mengurangi keterbatasan waktu.
+* Data sharing
+* Program sharing
+* Device Sharing
+* Hubungan antara perangkat yg berbeda
+* Paperless
+
+=== Model Komunikasi Data
+image::2021-09-27_jarkom_picture1.jpg[]
+
+== Jaringan Komputer
+Jaringan Komputer adalah jaringan telekomunikasi yang memungkinkan antar komputer untuk saling berkomunikasi dengan bertukar data.
+
+Tujuan dari jaringan komputer adalah agar dapat mencapai tujuannya, setiap bagian dari jaringan komputer dapat meminta dan memberikan layanan (service). 
+
+Pihak yang meminta/menerima layanan disebut klien (client) dan yang memberikan/mengirim layanan disebut peladen (server).
+
+=== Personal Area Network (PAN)
+Jaringan PAN merupakan jaringan komputer yang menghubungkan komputer dengan komputer maupun perangkat lain dalam jarak sangat dekat, misalnya dalam satu ruangan. 
+
+Melalui jaringan ini komputer bisa dihubungkan dengan kabel dan internet ke printer, Tablet,  dan perangkat lainnya.
+
+==== Karakteristik
+* Kontrol terhadap jaringan dan perangkat dilakukan secara personal, sehingga bisa disebut memakai otoritas pribadi.
+* Data yang ditransmisikan memakai jaringan PAN sifatnya khas dan personal.
+* Cakupan atau jarak jangkauan jaringan PAN hanya beberapa meter saja, dan dipengaruhi pula oleh panjang pendek kabel yang digunakan.
+* Menggunakan beberapa teknologi protokol seperti bluetooth, WiFi, Infrared, dan WAP.
+
+=== Local Area Network (LAN)
+Jaringan area lokal berada dalam area geografis yang kecil.
+
+Contoh seperti beberapa gedung dan kampus misalnya. Ini masih merupakan jaringan area lokal karena jaringan dikelola oleh dan milik organisasi tunggal dan jarak yang memisahkan host relatif kecil.  Ini disebut inter-jaringan,  tetapi masih merupakan  jaringan area lokal.
+
+==== Karakteristik
+* Jenis jaringan komputer yang areanya paling kecil.
+* Jenis jaringan yang tidak membutuhkan jaringan telekomunikasi.
+* Ideal digunakan untuk penggunaan pribadi atau internal.
+* Dikelola melalui administrator lokal.
+
+=== Metropolitan Area Network
+Metropolitan Area Network mencakup area fisik yang lebih besar dari LAN namun lebih kecil dari WAN, seperti kota.
+
+MAN dapat dimiliki dan dioperasikan oleh satu entitas seperti badan pemerintah atau perusahaan besar, tetapi biasanya digunakan oleh banyak individu dan organisasi.
+
+==== Karakteristik
+* Cakupan area lebih luas, yakni berjarak antara 5 sampai 50 km.
+* Tidak dibangun instansi melainkan oleh jasa yang melayani jaringan MAN dan digunakan oleh suatu instansi.
+* Ukuran jaringan MAN lebih besar dengan cakupan area lebih luas dibanding jaringan LAN.
+* Jaringan MAN merupakan jaringan berkecepatan tinggi.
+* Jaringan MAN memiliki 1-2 kabel dan tidak memiliki elemen switching.
+
+=== Wide Area Network
+Jaringan area luas adalah sekelompok LAN yang saling berhubungan, Local Area Networks, yang terpisah secara geografis.
+
+Sebagai contoh, sebuah perusahaan dapat memiliki kantor di berbagai kota. Terkadang pengguna dari satu kota perlu mengakses beberapa data yang berada di server di kota lain
+
+==== Karakteristik
+* jaringan WAN bisa menghubungkan perangkat (komputer) yang terpisah jarak cukup jauh. Jaringan ini mampu menghubungkan komputer lintas pulau, negara, dan bahkan benua.
+* Menggunakan Jasa Telekomunikasi yang Mendukung kecepatan berbagi data dan akses data dari server ke komputer para user. Maka jaringan ini menggunakan jasa telekomunikasi, sehingga memaksimalkan komunikasi antara karyawan di pusat dengan cabang atau antar cabang.
+
+=== Manfaat Jaringan Komputer
+* Efisiensi
+* Mengurangi Biaya
+* Authority
+* Komunikasi
+* Keamanan
+
+== Internet
+Internet adalah suatu jaringan komunikasi yang memiliki fungsi untuk menghubungkan antara satu media elektronik dengan media elektronik yang lain dengan cepat dan tepat
+
+Jaringan komunikasi tersebut, akan menyampaikan beberapa informasi yang dikirim melalui transmisi sinyal dengan frekuensi yang telah disesuaikan. 
+
+Untuk standar global dalam penggunaan jaringan internet sendiri menggunakan TCP / IP (Transmission Control Protocol / Internet Protocol).
+
+
