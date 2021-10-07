@@ -1,0 +1,111 @@
+= Media Transimis dan Perangkat Jaringan Komputer
+Ahmad Ma'ruf <ahmadmaruf2701@gmail.com>
+:toc:
+:toclevels: 3
+
+:date: 2021-10-04
+:modified: 2021-10-04
+:tags: pertemuan2, smt3, media-transimisi
+:category: jarkom, smt3
+:slug: media-transmisi-dan-perangkat-jaringan
+:authors: Ahmad Ma'ruf
+:summary: Pertemuan 2 Komunikasi data dan jaringan komputer - Media Transmisi
+:imagesdir: static/img
+
+== Transmisi
+Merupakan suatu proses pengiriman atau pemindahan informasi antar satu titik ke titik lainnya dalam sebuah sistem atau jaringan telekomunikasi yang dibatasi oleh suatu jarak _end-to-end_ yang sangat jauh
+
+== Jaringan Telekomunikasi
+Merupakan suatu sistem untuk menghubungkan pelanggan dengan sentral/pusat telekomunikasi, atau *sentral-dengan-sentral*
+
+== Jaringan Komputer
+Merupakan suatu sistem untuk menghubungkan komputer dengan komputer atau komputer dengan perangkat jaringan lainnya seperti hub, switch, router,dll
+
+== Topologi
+Faktor penting yang perlu diperhatikan adalah, konfigurasi jalur transmisi data, yang terdiri dari:
+* Point-to-point (titik-ke-titik)
++
+Menghubungkan secara khusus dua perangkat yang hendak berkomunikasi. Konfigurasi ini banyak ditemukan pada transmisi paralel, misalnya komunikasi antara dua perangkat/komputer secara paralel untuk melakukan penyalinan file-file data, walaupun transmisi serial dimungkinkan pula apabila jarak antara dua perangkat *jauh*
+* Multi point
++
+Menyatakan hubungan yang memungkinkan sebuah jalur digunakan oleh banyak perangkat yang berkomunikasi. Sebagai contoh adalah konfigurasi pada jaringan bertopologi *bus*, dimana satu saluran data (backbone) terhubung ke beberapa komputer.
+
+== Sistem Transmisi
+image::2021-10-04-jarkom_sistem_transmisi.jpg[]
+
+Faktor yang mempengaruhi keberhasilan suatu transmisi data:
+* Kualitas sinyal
+* Kualitas media transmisi
+
+== Media Transmisi
+Media transmisi merupakan suatu penghubung fisik antara *TX* (sisi pengirim) dan *RX* (sisi penerima) dalam sistem transmisi. Media transmisi berfungsi sebagai jalur lalu lintas data dan distribusi informasi.
+
+=== Indikator Media Transmisi
+* Kecepatan Pengiriman data
++
+Setiap media transmisi memiliki kapasitas dan kemampuan berbeda dalam mendistribusikan data/informasi.
+
+* Bandwidth
++
+Kapasitas kanal dipengaruhi oleh besarnya bandwidth yang dimiliki oleh media transmisi
+
+* Jarak Transmisi
++
+Berkaitan dengan atenuasi/pelemahan sinyal. Dalam proses komunikasi data, semakin tinggi atenuasi, maka semakin pendek jarak optimal media transmisi tersebut
+
+=== Pertimbangan dalam memilih media transmisi
+* Harga dan ketersediaan media transmisi
+* Performas jaringan yang dikehendaki
+* Kemampuan jaringan dalam menghadapi gangguan
+* Bandwidth dan jangkauan jarak yang dihendaki
+* Kecepatan transmisi yang dikehendaki
+
+=== Contoh Perangkat Media Transmisi
+* Kabel Coaxial
+* Kabel Twisted Pair (UTP & STP)
+* Kabel Fiber Optic
+* Gelombang Radio
+
+=== Perbandingan UTP,STP,Coaxial, Fiber Optic
+image::2021-10-04-jarkom_perbandingan_kabel_transmisi.jpg[]
+
+=== Ethernet Standards
+Ethernet 802.3 adalah sebuah kumpulan standar Internasional yang mendefinisikan lapisan fisik dan sublapisan media access control dari lapisan data-link dari standar Ethernet berkabel. IEEE 802.3 mayoritas merupakan teknologi Local Area Network (LAN), tetapi beberapa di antaranya adalah teknologi Wide Area Network (WAN).
+
+image::2021-10-04-jarkom_ethernet_standard.jpg[]
+
+=== Fast Ethernet Standards
+Fast Ethernet merupakan sebuah sebutan untuk teknologi jaringan Ethernet yang menawarkan kecepatan yang lebih tinggi dibandingkan dengan standar Ethernet biasa. Kecepatan yang ditawarkannya mencapai 100 megabit per detik. Standar-standar yang dibuat untuk teknologi ini adalah 100BaseTX, 100BaseFX, 100BaseT4, dan 100BaseT.
+
+image::2021-10-04-jarkom_fast_ethernet_standard.jpg[]
+
+=== Gigabit Ethernet Standards
+Gigabit Ethernet adalah istilah untuk menjelaskan berbagai teknologi transmisi frame Ethernet di tingkat yang gigabit per detik.
+
+image::2021-10-04-jarkom_gigabit_ethernet_standard.jpg[]
+
+=== Gelommbang Radio
+Gelombang radio merupakan bagian dari spektrum gelombang elektromagnetik. Implementasi gelombang radio untuk keperluan komunikasi antara lain: Komunikasi radio, Komunikasi satelit, Bluetooth, WiFi.
+
+== Jenis-Jenis Transmisi
+* Transmisi Analog
++
+Sinyal analog ditransmisikan tanpa mengetahui isinya. Jenis ini dapat mentransmisikan sinyal analog maupun sinyal digital. Akan tetapi apabila jarak transmisi terlalu jauh/melebihi batas, akan terjadi pelemahan sinyal *(atenuasi)*. Untuk mengatasi hal tersebut, dapat menggunakan amplifier serta menguatkan "noise".
+
+* Transmisi Digital
++
+Sinyal digital ditransmisikan DENGAN MENGETAHUI isinya. Kualitas sinyal sangat dipengaruhi oleh noise, atenuasi,dll. Untuk jarak yang terlalu jauh/melebihi batas , dapat menggunakan repeater.
++
+Repeater bekerja dengan menerima sinyal dari perangkat, kemudian meng-"ekstrak" _bit pattern,_ lalu mengirim ulang sinyal.
+
+Selain pembagian jenis transmisi berdasarkan medianya seperti diatans diatas, terdapat pula pembagian jenis transmisi berdasarkan perlakuan transmisi terhadap data/informasi yang ditransmisikan, yaitu:
+
+* Guided (dipandu)
++
+Media yang mampu mengatur besaran-besaran fisik melalui materialnya (konduktor fisik), contoh: Twister-pair cable (UTP/STP), Fiber Optic, Coaxial
+
+* Unguided (tidak dipandu)
+Mentransmisikan gelombang elektromagnetik tanpa menggunakan konduktor fisik. contoh: Infra-red, gelombang radio, bluetooth
+
+
+
