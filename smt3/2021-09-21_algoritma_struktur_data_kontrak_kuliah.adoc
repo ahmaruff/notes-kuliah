@@ -17,6 +17,17 @@ Ahmad Ma'ruf <ahmadmaruf2701@gmail.com>
 * UTS 20%
 * UAS 30%
 
+== Outline Materi Algoritma & Struktur Data
+* Algoritma dan FLowchart
+* Pointer
+* Array
+* Structure
+* Linked List
+* Stack
+* Queue
+* Tree
+* Graph
+
 == Struktur Data
 Struktur data adalah cara penyimpanan, penyusunan dan pengaturan data di dalam media penyimpanan komputer sehingga data tersebut dapat digunakan secara efisien.
 
