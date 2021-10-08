@@ -1,0 +1,162 @@
+= Algoritma dan Flowchart
+Ahmad Ma'ruf <ahmadmaruf2701@gmail.com>
+:toc:
+:toclevels: 3
+
+:date: 2021-09-28
+:modified: 2021-09-28
+:tags: pertemuan2, smt3, algoritma-flowhart
+:category: algoritma-struktur-data, smt3
+:slug: algoritma-dan-flowchart
+:authors: Ahmad Ma'ruf
+:summary: Pertemuan 2 Algoritma Struktur Data - Algoritma dan Flowchart
+:imagesdir: static/img
+
+== Program
+Program merupakan sederetan perintah-perintah yang harus dikerjakan oleh computer untuk menyelesaikan masalah.
+
+3 level bahasa pemrograman:
+. Bahasa tingkat rendah
+. Bahasa tingkat menengah
+. Bahasa tingkat tinggi
+
+=== Bahasa Tingkat Rendah
+*Bahasa Mesin*
+
+Berisi kode-kode mesin yang hanya bisa diitepretasikan secara langsung oleh mesin komputer. berupa kode numerik 0 & 1.
+
+*Microcode*
+
+Sekumpulan instruksi dalam bahasa mesin. memiliki keunggulan waktu eksekusi yang cepat, akan tetapi sangat sulit untuk dipahami manusia.
+
+=== Bahasa Tingkat Menengah
+*Bahasa Assembly*
+
+Bahasa simbol dari bahasa mesin. contoh: perintah ADD, MUL, SUB, dll
+
+*Makro Instruksi*
+s
+Memiliki keunggulan waktu eksekusi yang cepat, MASIH DAPAT dipelajari daripada bahasa mesin. akan tetapi TETAP SULIT dipelajari manusia. Memiliki baris kode program yang sangat panjang.
+
+
+=== Bahasa tingkat Tinggi
+Lebih dekat dengan Bahasa manusia. Memberi banyak fasilitas kemudahan dalam pembuatan program, mis.: variabel, tipe data, konstanta, struktur kontrol, loop, fungsi, prosedur, dll
+
+Contoh: Pascal, Basic, C++, Java
+
+Mudah dipelajari, mendekati permasalahan yang akan dipecahkan, kode program pendek, akan tetapi Eksekusi lambat
+
+== Translator
+Merupakan penerjemah bahasa tingkat tinggi ke bahasa tingkat rendah. contoh: Assembler, Intepreter, Compiler.
+
+*Assembler* merupakan penerjemah bahasa assembly ke bahasa mesin.
+
+=== Intepreter
+Kode perintah diterjemahkan baris demi baris, kode/program tidak dianalisis seluruhnya dulu tapi bersamaan dengan jalannya program.
+
+(+) : mudah bagi user, debugging cepat
+
+(-) : eksekusi program lambat, tidak langsung menjadi program executable
+
+contoh: Python, Javascript
+
+=== Compiler
+Seluruh kode/program dianalisis terlebih dahulu. kemudian program tersebuh diterjemahkan serta diubah menjadi bentuk executable atau bahasa assembly.
+
+(+) : Eksekusi program lebih cepat (karena sudah menjadi bentuk executable)
+
+(-) : Membutuhkan waktu lama untuk menganalisis keseluruhan kode
+
+contoh: C, C++, Java, 
+
+== Paradigma Bahasa Pemrograman
+https://medium.com/mtiakakom/belajar-memahami-paradigma-pemrograman-740497df1685[ref]
+
+Merupakan cara pandang untuk mengimplementasikan penyelesaian suatu masalah menggunakan bahasa pemrograman. 
+
+image::2021-09-28-algoritma_paradigma_pemrorgaman.webp[]
+
+== Belajar Memrogram dan Belajar Bahasa Pemrograman
+Belajar memprogram adalah belajar tentang metodologi pemecahan masalah, kemudian menuangkannya dalam suatu notasi tertentu yang mudah dibaca dan dipahami.
+
+Belajar Bahasa pemrograman adalah belajar memakai suatu bahasa, aturan tata bahasanya, instruksi-instruksinya, tata cara pengoperasian compiler-nya untuk membuat program yang ditulis dalam Bahasa itu saja
+
+== Algoritma
+Algoritma adalah logika, metode dan tahapan (urutan) sistematis yang digunakan untuk memecahkan suatu permasalahan.
+
+Menurut KBBI: Algoritma adalah urutan logis pengambilan keputusan untuk pemecahan masalah.
+
+Algoritma merupakan sederetan langkah-Langkah logis yang disusun secara sistematis untuk memecahkan suatu masalah. Disebut logis karena setiap langkah bisa diketahui dengan pasti.
+
+Algoritma lebih merupakan alur pemikiran untuk menyelesaikan suatu pekerjaan atau suatu masalah.
+
+Penulisan algoritma tidak tergantung dari spesifikasi Bahasa pemrograman dan computer yang mengeksekusinya.
+
+Notasi algoritma bukan notasi Bahasa pemrograman tetapi dapat diterjemahkan ke dalam berbagai Bahasa pemrograman.
+
+=== Ciri-ciri Algoritma
+. Algoritma harus berhenti setelah mengerjakan sejumlah Langkah terbatas.
+. Setiap Langkah harus didefinisikan dengan tepat dan tidak berarti-dua (Ambiguitas).
+. Algoritma memiliki nol atau lebih masukkan.
+. Algoritma memiliki satu atau lebih keluaran.
+. Algoritma harus efektif (setiap Langkah harus sederhana sehingga dapat dikerjakan dalam waktu yang masuk akal)
+
+== Struktur Data
+Struktur data adalah cara menyimpan atau merepresentasikan data didalam computer agar bisa dipakai secara efisien. Sedangkan data adalah representasi dari fakta dunia nyata.
+
+Fakta atau keterangan tentang kenyataan yang disimpan, direkam atau direpresentasikan dalam bentuk tulisan, suara, gambar, sinyal atau simbol
+
+Pemakaian struktur data yang tepast didalam proses pemrograman akan menghasilkan algoritma yang lebih jelas dan tepat, sehingga menjadikan program secara keseluruhan lebih efisien dan sederhana.
+
+== Tipe Data
+* Type data sederhana
+**  Type data sederhana tunggal, misalnya Integer, real, Boolean dan karakter
+** Type data sederhana majemuk, misalnya String
+
+* Struktur Data, meliputi
+** Struktur data sederhana, misalnya array dan record
+** Struktur data majemuk, yang terdiri dari
+*** Linier : Stack, Queue, serta List dan Multilist
+*** Non Linier : Pohon Biner dan Graph
+
+== Notasi Algoritma
+=== Uraian kalimat deskriptif (narasi)
+Contoh:
+
+Algoritma Kelulusan_mhs
+
+Diberikan nama dan nilai mahasiswa, jika nilai tersebut lebih besar atau sama dengan 56 maka mahasiswa tersebut dinyatakan lulus jika nilai lebih kecil dari 56 maka dinyatakan tidak lulus.
+
+DESKRIPSI:
+. Baca nama dan nilai mahasiswa.
+. Jika nilai >= 60 maka
+. Berikan keterangan  “lulus”
+. Tetapi jika tidak
+. Berikan keterangan  “tidaklulus”
+. Tulis nama dan keterangan
+
+=== Flowchart
+image::2021-09-28-algoritma_flowchart[]
+
+=== Pseudo codde
+Ada 3 bagian: Judul, Deskripsi, Implementasi
+
+Judul : Algoritma kelulusan
+
+Deskripsi:
+* nama, keterangan: string
+* nilai: integer
+
+Implementasi:
+
+  Read (nama, nilai);
+  If nilai >= 60 then
+    keterangan := “lulus”;
+  else
+    keterangan := “tidak lulus”;
+  Write (nama, keterangan);
+  
+=== Aturan Pseudo Code
+* Judul yang dipakai dalam pseudocode adalah judul algoritma yang akan dipakai atau judul yang ingin dibuat oleh penulis.
+* Deskripsi : Bagian ini berisi deklarasi dari keterangan algoritma yang akan dibuat, yaitu keterangan variabel (var) atau konstanta yang digunakan untuk menghitung suatu rumus tertentu.
+* Implementasi : Bagian ini berisi proses atau langkah- langkah yang akan dilakukan algoritma atau inti dari algoritma itu sendiri. Maksudnya adalah pengguna harus menuliskan besaran angka pada masing-masing variabel yang akan dihitung dan sebagainya.
